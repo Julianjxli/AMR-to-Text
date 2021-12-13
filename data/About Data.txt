@@ -1,0 +1,3 @@
+Since the AMR standard dataset requires an LDC license, it is not convenient to make it public. 
+If you would like to obtain the dataset for validation and replication,
+please go to the following URL for access: https://www.ldc.upenn.edu/
