@@ -683,7 +683,7 @@ class AMRBartForConditionalGeneration(bart.PretrainedBartModel):
 
             if extra is not None:
 
-                total_loss=masked_lm_loss+0.4 * label_loss + 0.1 * dist_loss 
+                total_loss=masked_lm_loss+ 0.4 * label_loss + 0.1 * dist_loss 
                 outputs = (total_loss,) + outputs
             else:
                 total_loss=masked_lm_loss            
