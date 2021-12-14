@@ -1,7 +1,7 @@
 # AMR-to-Text
 
 run command:
-CUDA_VISIBLE_DEVICES=3 python bin/train.py --config configs/config3.yaml --direction text
+CUDA_VISIBLE_DEVICES=3 python bin/train.py --config configs/config.yaml --direction text
 
 
 CUDA_VISIBLE_DEVICES=4  python bin/predict_sentences.py \
